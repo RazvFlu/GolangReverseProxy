@@ -84,4 +84,3 @@ The response should contain the original email address and status code 200 OK.
 ```bash
 curl -X POST -H "Content-Type: text/plain" -d 'This is an example email: john.doe@example.com' http://localhost:8080/test1 -v
 ```
-# GolangReverseProxy

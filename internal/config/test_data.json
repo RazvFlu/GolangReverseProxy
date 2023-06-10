@@ -1,0 +1,23 @@
+{
+    "configs": [
+      {
+        "sourcePath": "test1",
+        "targetURL": "http://localhost:10001",
+        "blockedHeaders": [
+        ],
+        "blockedQueryParams": [
+          "password"
+        ]
+      },
+      {
+        "sourcePath": "test2",
+        "targetURL": "http://localhost:10002",
+        "blockedHeaders": [
+            "Auth"
+        ],
+        "blockedQueryParams": [
+        ]
+      }
+    ]
+  }
+  
